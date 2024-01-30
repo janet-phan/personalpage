@@ -1,0 +1,36 @@
+:root {
+    --main-color: #C52184;
+    --mc2: #E574BC;
+    --mc3: #F9B4ED;
+    --mainb: #1E2D24;
+    --offb: #334139;
+    }
+    
+    .element-to-style {
+    color: var(--main-color);
+    
+    }
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 45%;
+    margin: auto;
+    border-radius: 15px;
+}
+    
+    /* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+    
+    /* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+    border-radius: 15px;
+}
+
+.card img {
+    border-radius: 15px 15px 0px 0px;
+}
